@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --gray2: #4f4f4f;
+}
+
+.container {
+  max-width: 969px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 52px;
+}
+
+.main-title {
+  margin-bottom: 12px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.main-description {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.main-description-text {
+  max-width: 592px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--gray2);
+}
+
+.main-description-icon {
+  margin-right: 12px;
+  width: 13px;
+  height: 8px;
+  background-image: url(img/6dots.svg);
+}
+
+.recipe-photo {
+  width: 100%;
+  border-radius: 12px;
+}
