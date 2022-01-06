@@ -183,4 +183,37 @@ body {
   line-height: 150%;
   text-decoration: none;
   color: var(--gray4);
+  transition: 0.3s;
+}
+
+.source-info:hover {
+  color: #828282;
+}
+
+.footer {
+  margin-top: 57px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.footer-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #828282;
+  transition: 0.3s;
+}
+
+.username-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #646060;
 }
