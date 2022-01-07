@@ -171,6 +171,7 @@ body {
 
 .instruction-text {
   margin-left: 15px;
+  width: 90%;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
@@ -216,4 +217,81 @@ body {
 
 .footer-link:hover {
   color: #646060;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .ingredients-block {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .time-info {
+    height: auto;
+    padding: 24px 0 30px;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .time-info-black {
+    display: flex;
+    margin-top: 23px;
+  }
+
+  .time-info-item {
+    margin-right: 45px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .time-info-black {
+    justify-content: space-between;
+  }
+
+  .time-info-item {
+    margin-right: 0;
+  }
+
+  .time-info-title {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .time-info-amount {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .main-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .main-description-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .ingredients-small-ttile {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .ingredients-list {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .source-info {
+    font-size: 12px;
+  }
 }
